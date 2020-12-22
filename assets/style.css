@@ -1,0 +1,75 @@
+body {
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Section */
+
+.heading {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.heading-content {
+    position: relative;
+    top: 80px;
+}
+
+/* Text */
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+p {
+    position: relative;
+    top: -20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px black solid;
+}
+
+a:hover {
+   transition: 0.35s all ease;
+   background-color: black;
+   color: white;
+   border: 0px;   
+}
+
+/* Images */
+
+.logo {
+    position: relative;
+    right: 0;
+    left: -30px;
+    margin: 0 auto !important;
+    height: 200px;
+}
+
+@media only screen and (max-width: 650px) {
+    .logo {
+      position: relative;
+      display: block;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+    }
+    
+    a {
+        text-align: center;
+    }
+  }
+  
